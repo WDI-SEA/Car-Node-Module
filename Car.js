@@ -1,31 +1,30 @@
 class Car {
 
-    constructor("red", convertible) {
+    constructor(color, convertible, speed) {
 
-        this.color = red;
-        this.convertible = true;
-        carDetails: {
-            speed: 0,
-
-        }
+        this.color = color;
+        this.convertible = convertible;
+        this.speed = speed;
     };
         
-    function accelerate () => {
-        for (let i = 0; i < 25; i++) {
-            console.log(i)
-            i++
+    speed = 0
+
+     accelerate(mph) {
+        mph = 25
         }
     }
 
-    function decelerate () => {
-        for (let i = 0; i >= 25; i--) {
-            console.log(i)
-            i--
+     decelerate(mph) {
+        
         }
     }
 
 
 
 }
+const escape = new Car("grey", false)
+console.log("ESCAPE COLOR: " + escape.color)
+console.log("ESCAPE CONVERTIBLE: " + escape.convertible)
+
 
 module.exports = Car
