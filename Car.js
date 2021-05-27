@@ -1,3 +1,7 @@
+const http = require('http')
+const server = http.createServer(function(req, res){
+
+
 console.log('hello world!')
 //higher order function
 function higherOrder(callback){
@@ -45,3 +49,5 @@ async function getNewCar() {
 getNewCar()
 // function to accelarate and decelerate
 
+})
+server.listen(8000);
