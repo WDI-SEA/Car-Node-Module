@@ -1,6 +1,6 @@
 const Car = require('../Car');
 const chai = require('chai');
-
+console.log(Car)
 const should = chai.should();
 const machFive = new Car('red', true);
 const jalopy = new Car('brown', false);
