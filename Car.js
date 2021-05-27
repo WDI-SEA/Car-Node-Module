@@ -4,26 +4,20 @@ class Car {
 
         this.color = color;
         this.convertible = convertible;
+        this.speed = 0;
         
     };
         
-    speed = 0
 
      accelerate(mph) {
-        
+         this.speed += mph
         }
     
 
-     decelerate(mph) {
-        
-        }
+    decelerate(mph) {
+        this.speed -= mph
+    }
 }
-
-
-// const escape = new Car("grey", false)
-// console.log("ESCAPE COLOR: " + escape.color)
-// console.log("ESCAPE CONVERTIBLE: " + escape.convertible)
-// console.log("WHO KNOWS " + escape.speed)
 
 
 module.exports = Car
