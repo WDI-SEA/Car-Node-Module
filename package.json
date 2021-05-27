@@ -1,8 +1,8 @@
 {
-  "name": "car-module-hw",
+  "name": "car-node-module",
   "version": "1.0.0",
   "description": "- your task is to make a module  (`Car.js`) that defines a car – with both properties and methods (functions) – and export it as a module to an `index.js` file.",
-  "main": "index.js",
+  "main": "Cars.js",
   "scripts": {
     "test": "mocha"
   },
@@ -11,5 +11,20 @@
   "dependencies": {
     "chai": "^4.1.2",
     "mocha": "^5.2.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tlamatina/Car-Node-Module.git"
+  },
+  "keywords": [
+    "car-node-module"
+  ],
+  "bugs": {
+    "url": "https://github.com/Tlamatina/Car-Node-Module/issues"
+  },
+  "homepage": "https://github.com/Tlamatina/Car-Node-Module#readme"
 }
