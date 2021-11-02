@@ -6,7 +6,7 @@ module.exports=class Car {
         this.convertible = bool,
         this.speed = 0
         this.accelerate = (i) =>{
-            this.speed = i + 0 };
+            this.speed = i + this.speed };
         this.decelerate = (i) =>{
             this.speed = this.speed - i };
     }
