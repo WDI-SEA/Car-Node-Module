@@ -1,7 +1,7 @@
 module.exports = class Car {
-    constructor(color, convertable, speed, accelerate, decelerate) {
+    constructor(color, convertible) {
         this.color = color,
-        this.convertible = convertable,
+        this.convertible = convertible,
         this.speed = 0
     }
     accelerate = (num) => {
