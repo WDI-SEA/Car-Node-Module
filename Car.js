@@ -1,18 +1,15 @@
-class car {
-    constructor(color, convertible, speed) {
+class Car {
+    constructor(color, convertible) {
         this.color = color
-        this.convertible = true
+        this.convertible = convertible
         this.speed = 0
     }
+accelerate(num) {
+    this.speed = this.speed + num
+}
+decelerate(num) {
+    this.speed = this.speed - num
+}
 }
 
-const gWagon = new car('black', false, 120)
-const audiS = new car('red', true, 180)
-
-console.log('This Benz truck is my favorite.', gWagon)
-console.log('I do not like Audis.', audiS)
-
-
-function accelerate(speed) {
-    console.log('The car is speeding up')
-}
+module.exports = Car
