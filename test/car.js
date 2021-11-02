@@ -7,13 +7,13 @@ class Car {
 
 
     accelerate(num){
-        return this.speed += num
+        return this.speed = num
     }
 
     decelerate(num) {
-        return this.speed -= num
+        return this.speed = num
     }
 }
 console.log('working')
 
-module.exports = Car
+module.exports=Car
