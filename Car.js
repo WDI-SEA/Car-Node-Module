@@ -32,4 +32,4 @@ function Car(color, convertible) {
 }
 
 // export module so it can be used
-module.exports  = Car
+module.exports = Car
