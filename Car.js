@@ -1,4 +1,4 @@
-module.exports = function Class (color, convertible) {
+module.exports = function Car (color, convertible) {
     this. color = color
     this.convertible = convertible
     this.speed = 0
