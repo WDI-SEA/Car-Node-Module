@@ -1,13 +1,13 @@
 //car class
     class Car {
         constructor(color, convertible) {
-            this.color = color;
-            this.convertible = convertible;
+            this.color = color
+            this.convertible = convertible
             //init speed is 0
-            this.speed = 0;
+            this.speed = 0
         }
         accelerate(x) {
-            this.speed = 0 + x
+            this.speed = this.speed + x
             return this.speed
          }
          decelerate(x) {
