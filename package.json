@@ -8,8 +8,20 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^5.2.0"
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuzel99/Car-Node-Module.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/shuzel99/Car-Node-Module/issues"
+  },
+  "homepage": "https://github.com/shuzel99/Car-Node-Module#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
   }
 }
