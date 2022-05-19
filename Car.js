@@ -6,11 +6,14 @@ class Car {
         this.speed = 0
     }
 
-    accelerate(acc){
-        this.speed += acc;
+    accelerate(amount){
+        this.speed += amount;
     }
-    decelerate(dcc)
-        this.speed += dcc;
+    
+    decelerate(amount){
+        this.speed -= amount;
+    }
+
 }
 
 module.exports = Car
