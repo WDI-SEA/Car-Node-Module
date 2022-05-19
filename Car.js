@@ -1,15 +1,16 @@
-let speed = 0
+
 class Car {
-    constructor(color, convertible, speed){
+    constructor(color, convertible){
         this.color = color;
         this.convertible = convertible;
-        this.speed = speed
+        this.speed = 0
     }
     accelerate = (accel) => {
-        this.speed += accel
+        return this.speed += accel
+    }
     decelerate = (decel) => {
-        this.speed -= decel
+        return this.speed -= decel
     }
 }
-}
+
 module.exports = Car

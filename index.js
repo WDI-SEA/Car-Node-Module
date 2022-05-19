@@ -1,3 +1,2 @@
-var myModule = require('./Car.js')
+const myModule = require('./Car.js')
 
-console.log(console.log)
