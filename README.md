@@ -30,3 +30,31 @@ Node modules will be vital to this unit and future Javascript projects. In this 
 Run <code>npm install</code> to install packages listed in package.json. This will create a node_modules folder that your project will draw from.
 
 To test your Car class, run <code>npm test</code> to test the features. DO NOT ALTER THE TEST FILE. Continue coding in the Car.js file until all tests pass.
+
+
+## Steps 
+l. Open your terminal/command line 
+
+l.Ceate a new directory with your project 
+        mkdir project-name 
+
+l.Enter the project 
+        cd project-name
+
+l.Then set up a new npm package by 
+        npm init -y or npm init
+
+l.Enter VS code (code .) 
+
+l.Then create a js file by
+        touch index.js
+
+## Creating, Exploring, and Importing Modules
+l.Create your module
+
+l.Then import the module in index.js by using the require() function
+        const myModule = require('./myModule.js');
+
+l.Run node index.js
+
+
