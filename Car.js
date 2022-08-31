@@ -13,3 +13,5 @@ class Car {
         speed -= number
     }
 }
+
+module.exports = Car;
