@@ -4,8 +4,7 @@ const chai = require('chai');
 const should = chai.should();
 const machFive = new Car('red', true);
 const jalopy = new Car('brown', false);
-console.log(machFive)
-console.log(jalopy)
+
 describe('a new car', ()=>{
     it('should have a given color', ()=>{
         machFive.color.should.be.eql('red');
