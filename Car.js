@@ -6,11 +6,11 @@ class Car {
     }
     
     accelerate(number) {
-        speed += number
+        this.speed += number
     }
 
     decelerate(number) {
-        speed -= number
+        this.speed -= number
     }
 }
 
