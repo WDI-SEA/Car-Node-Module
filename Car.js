@@ -1,7 +1,7 @@
 class Car {
-    constructor(color, convertable) {
-        this.color = "color"
-        this.covertable = true || false
+    constructor(color, convertible) {
+        this.color = color
+        this.covertible = convertible
         this.speed = 0
         this.accelerate = function (newSpeed) {
           this.speed = newSpeed
@@ -13,8 +13,8 @@ class Car {
     getCarStats() {
         return `
           Color: ${this.color}
-          Convertable: ${this.convertable}
-          Speed: ${this.email}
+          Convertible: ${this.convertible}
+          Speed: ${this.speed}
           Acceleration: ${this.accelerate}
           Deceleration: ${this.decelerate}
         `;
