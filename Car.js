@@ -1,7 +1,7 @@
 class Car {
     constructor(color, convertible) {
         this.color = color
-        this.covertible = convertible
+        this.convertible = convertible
         this.speed = 0
         this.accelerate = function (newSpeed) {
           this.speed = newSpeed
@@ -20,5 +20,8 @@ class Car {
         `;
       }
 }
+
+// const chevy = new Car(red, true)
+// console.log(chevy)
 
 module.exports = Car;
