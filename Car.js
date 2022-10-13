@@ -1,21 +1,15 @@
-class Car {
+module.exports = class Car {
     constructor(color, convertible){
-        this.color = color
-        this.convertible = convertible
-        this.speed = 0
+        this.color = color;
+        this.convertible = convertible;
+        this.speed = 0;
     }
-
-  
-
+    
     accelerate(num){
-        speed +=num
-        console.log('Speed: '+speed)
+        this.speed +=num
     }
 
     decelerate(num){
-        speed -=num
-        console.log('Speed: '+speed)
+        this.speed -=num
     }
-
-
 }
