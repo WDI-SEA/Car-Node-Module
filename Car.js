@@ -5,11 +5,11 @@ module.exports = class car {
         this.speed = 0
     }
     accelerate(num){
-        this.speed=this.speed+num
+        this.speed = this.speed + num
 
     }
     decelerate(num){
-        this.speed=this.speed-num
+        this.speed = this.speed - num
 
     }
 
