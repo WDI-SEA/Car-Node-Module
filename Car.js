@@ -1,9 +1,9 @@
-module.exports = class {}
+module.exports = class 
 
- class Car {
-    constructor () {
-        this.color = 'blue';
-        this.convertible = false;
+ Car {
+    constructor (color, convertible) {
+        this.color = color;
+        this.convertible = convertible;
         this.speed = 0;
       }
 
@@ -18,10 +18,3 @@ module.exports = class {}
 
 }
 
-//const you = new Person('Matt', 36, 'blue', 'blonde');
-let newCar = new Car('red',true)
-console.log(newCar)
-newCar.accelerate(5)
-console.log(newCar)
-newCar.decelerate(2)
-console.log(newCar)
