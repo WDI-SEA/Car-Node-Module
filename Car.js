@@ -12,7 +12,7 @@ module.exports = class car {
         this.speed=this.speed-num
 
     }
-
+// new changes
 }
 
 //To test the Car class run 'npm test ' in the ter
