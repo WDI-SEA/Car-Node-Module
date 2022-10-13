@@ -1,4 +1,7 @@
-class Cars {
+
+
+
+module.exports = class Car {
     constructor(color , convertible) {
         this.color = color
         this.convertible = convertible
@@ -14,6 +17,3 @@ class Cars {
         this.speed -= num
     }
 }
-
-
-module.exports = class {}
