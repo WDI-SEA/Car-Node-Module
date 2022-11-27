@@ -10,10 +10,10 @@ module.exports = class car{
 
 
     accelerate(num) {
-            this.speed += num
+            this.speed=this.speed+num
  }
     
     decelerate(num) {
-            this.speed -= num
+            this.speed=this.speed- num
  }
     
